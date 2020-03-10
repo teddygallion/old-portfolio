@@ -1,0 +1,28 @@
+h1{
+  color: black;
+}
+body{
+  background-color:lightblue;
+}
+.js-container{
+  display:flex;
+  justify-content:start;
+}
+.js-white{
+  display: inline-flex;
+  width: 20px;
+  height:100px;
+  background-color:white;
+  border: 1px solid grey;
+  border-radius: 5%;
+  z-index: 1;
+  padding:1px;
+}
+.js-black{
+margin-left:10px;
+width: 10px;
+height: 40px;
+background-color:black;
+border: 1px purple;
+border-radius: 5%;
+}

@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  background-color:#000434;
+}
+#headline{
+  display:inline;
+  color: lavender;
+  text-decoration: underline darkslategray;
+}
+.section-header{
+  background-color:#5d4960;
+  color:#235150;
+}
+
+#my-face{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/original.jpg");
+  height:400px;
+  width:450px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin:auto;
+}
+.tagline{
+  background-color: #235150;
+  color: #09394f;
+}
+#contact-info{
+  background-color:#ADBFCE;
+  color:darkslategrey;
+  opacity:.9; 
+}
+#project-3{
+  background-color:#ADBFCE;
+  color:darkslategrey;
+  opacity:.9;
+}
+#bio{
+  background-color:#ADBFCE;
+  color:darkslategrey;
+  opacity:.9;
+}
+nav,footer {
+padding: 1% 0;
+background-color: #000323;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  color: white;
+  padding-left:10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+ color: rebeccapurple;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+
+header {
+  padding: 6%;
+  opacity: .8;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #4F6170;
+  color:bisque;
+  opacity: .9;
+}
+
+section:nth-child(even) {
+background-color: #ADBFCE;
+color: darkslategray;
+opacity: .9;
+}
+.keyboard{
+  background-image:url('images/mymelody.png');
+  width: 400px;
+  height:150px;
+  background-repeat: no-repeat;
+  margin:auto;
+}
+.api-hack{
+  background-image:url('images/findmysound.jpg');
+  width: 400px;
+  height:150px;
+  background-repeat: no-repeat;
+  margin:auto;
+}
+.quiz-app{
+  background-image:url('images/punkquiz.png');
+  width:400px;
+  height:150px;
+  background-repeat:no-repeat;
+  margin:auto;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size:2em;
+    }
+
+#project-3>a{
+  color :darkslategray;
+}
+#project-3>a:hover{
+  color:purple;
+}
+#api-hack>a, #quiz-app > a{
+color: bisque;
+}
+#api-hack>a:hover, #quiz-app > a:hover{
+color:purple;
+}
+a:visited{
+  text:decoration:none;
+}

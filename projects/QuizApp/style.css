@@ -1,0 +1,92 @@
+body{
+	font-family: 'roboto', sans-serif;
+	color: orange;
+	background-color: black;
+	font-weight: bold;
+}
+#question-1>h1,#question-2>h1,#question-3>h1,#question-4>h1,#question-5>h1{
+	font-family: 'abril Fatface', sans-serif;
+	font-size: 30px;
+	margin-left: 40%;
+}
+#intial-view >p{
+  font-family: 'Abril Fatface', sans-serif;
+	font-size: 24px;
+}
+#intial-view >{
+font-family: 'roboto', sans-serif;
+	font-size: 24px;
+}
+button{
+	background-color:limegreen;
+}
+button:hover{
+	background-color:orange;
+}
+#active-view > p{
+ margin-left: 90%
+}
+#form-question > h1{
+	font-size:25px;
+	margin-left: 8%;
+}
+#answer{
+	width:25%;
+	max-height:30%;
+	margin-left: 35%;
+}
+.answerOption{
+	display: list-item;
+	list-style: none;
+}
+.submitButton{
+	width: 60px;
+	position: center;
+}
+#landing{
+	background-image: url('https://imgur.com/m4wh7kL.jpg');
+	background-size: 30%;
+	background-repeat: no-repeat;
+	padding-left: 31%;
+	height: 400px;
+}
+#question-1{
+	background-image:url('https://imgur.com/LTDoosi.jpg');
+	background-size: 40% 50%;
+	background-repeat: no-repeat;
+	padding-left: 40%;
+
+}
+#question-2{
+	background-image:url('https://i.imgur.com/8bJlooR.jpg');
+	background-size: 30% 100%;
+	background-repeat: no-repeat;
+	padding-left: 30%;
+}
+#question-3{
+	background-image:url('https://imgur.com/2wZRkUk.jpg');
+	background-size: 30% 100%;
+	background-repeat: no-repeat;
+	padding-left: 30%;
+}
+#question-4{
+	background-image:url('https://imgur.com/KP6pvIb.jpg');
+	background-size: 30% 100%;
+	background-repeat: no-repeat;
+	padding-left: 30%;
+}
+#question-5{
+	background-image:url('https://i.imgur.com/T0M7Agm.jpg');
+	background-size: 30% 100%;
+	background-repeat: no-repeat;
+	padding-left: 30%;
+}
+#response-container{
+	margin-left: 55%;
+}
+#answer-wrapper {
+ margin: 0 30%;
+}
+#restartQuizButton {
+ margin: 10% 30%;
+}
