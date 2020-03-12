@@ -3,13 +3,14 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   sans-serif; 
   font-size: 20px;
+  font-weight: 400;
   color: #444;
   text-align: center;
   line-height: 1.5;
-  background-color:#000434;
+  background-color:#09394f;
 }
 #headline{
   display:inline;
@@ -17,22 +18,23 @@ body {
   text-decoration: underline darkslategray;
 }
 .section-header{
-  background-color:#5d4960;
-  color:#235150;
+      background-color: darkolivegreen;
+    color: #340500;
 }
 
-#my-face{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/original.jpg");
+img{
+  filter: grayscale(40%) saturate(2) brightness(50%);
   height:400px;
   width:450px;
+  max-width: 100%;
   background-repeat: no-repeat;
   position: relative;
   margin:auto;
 }
 .tagline{
-  background-color: #235150;
-  color: #09394f;
-}
+  background-color: darkolivegreen;
+  color: #340500;
+}   
 #contact-info{
   background-color:#ADBFCE;
   color:darkslategrey;
@@ -70,10 +72,12 @@ li a {
   color: white;
   text-align: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 li a:hover {
  color: rebeccapurple;
+ cursor: pointer;
 }
 nav {
   position: fixed;
@@ -82,11 +86,12 @@ nav {
   right: 0;
   z-index: 10;
 }
-
-
-
+main{
+  width: 85%;
+  margin: auto;
+}
 header {
-  padding: 6%;
+  padding: 4%;
   opacity: .8;
 }
 
@@ -105,21 +110,21 @@ opacity: .9;
 }
 .keyboard{
   background-image:url('images/mymelody.png');
-  width: 400px;
+  width: 42%;
   height:150px;
   background-repeat: no-repeat;
   margin:auto;
 }
 .api-hack{
   background-image:url('images/findmysound.jpg');
-  width: 400px;
+  width: 43%;
   height:150px;
   background-repeat: no-repeat;
   margin:auto;
 }
 .quiz-app{
   background-image:url('images/punkquiz.png');
-  width:400px;
+  width: 45%;
   height:150px;
   background-repeat:no-repeat;
   margin:auto;
@@ -150,3 +155,5 @@ color:purple;
 a:visited{
   text:decoration:none;
 }
+//    background-color: #235150;
+    color: #09394f;//
