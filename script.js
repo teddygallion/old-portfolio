@@ -1,7 +1,7 @@
 $( "#projectTab" ).click(function() {
   let projectTab = renderProjectsTab();
  $('#active-view').html(projectTab);
- scrollToActiveview();
+ scrollToActiveView();
 });
 $( "#contactsTab" ).click(function() {
   let contactsTab = renderContactTab();

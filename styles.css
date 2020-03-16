@@ -21,7 +21,7 @@ body {
     color: #340500;
 }
 
-img{
+#my-face{
   filter: grayscale(40%) saturate(2) brightness(50%);
   height:30%;
   width:30%;
